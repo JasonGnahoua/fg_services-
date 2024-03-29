@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- banner Start -->
+<section id="banner">
+	<div class="container">
+		<div class="row">
+			<div class="banner">
+				<h1 class="title-best">MEILLEUR AGENCE DU DIGITAL</h1>
+				<p>Fg Services est une agence digital qui évolue dans le developpement web,
+				 infographie, la vente de consoles de jeux et d'ordinateurs portables.</p>
+			</div>
+			<div class="col-md-6 img-center">
+				<img src="{% static 'extra-images/programming-courses-web-design.webp' %}" alt="programming digital" class="img-fluid" width="1500" style="margin-bottom: 39px;">
+			</div>
+		</div>
+	</div>
+</section>
+<!-- banner end -->
+
+<!-- services Start -->
+<section id="services">
+	<div class="container text-center">
+		<h1 class="title">SERVICES</h1>
+		<div class="row text-center">
+			<div class="col-md-4 services">
+				<a style="color: #040404 !important; text-decoration: none;" href="">
+					<img src="{% static 'extra-images/developpement-web-featured.jpg' %}" alt="ordi" class="service-img">
+					<h5>DEVELOPPEMENT WEB</h5>
+			    </a>
+			</div>
+			<div class="col-md-4 services">
+				<a style="color: #040404 !important; text-decoration: none;" href="">
+					<img src="{% static 'images/ordi.jpeg' %}" alt="ordi" class="service-img">
+					<h5>ORDINATEUR</h5>
+				</a>
+			</div>
+			<div class="col-md-4 services">
+				<a style="color: #040404 !important; text-decoration: none;" href="">
+					<img src="{% static 'images/chiffres-jeu-video.jpg' %}" alt="ordi" class="service-img">
+					<h5>JEUX VIDEOS</h5>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- services End -->
+
+<!-- About me Start -->
+<section id="about-me">
+	<div class="container">
+		<h1 class="title-about-me">A PROPOS DE NOUS</h1>
+		<div class="row">
+			<div class="col-md-6 about-me">
+				<p style="margin-top: 15px;">
+					Bienvenue chez <b>Fg services</b>, votre partenaire de confiance pour la création et
+					l'amélioration de votre présence en ligne. Nous sommes bien plus qu'une simple agence de développement web ;
+					nous sommes des artisans numériques passionnés par la création d'expériences en ligne exceptionnelles.
+				</p>
+				<h3 class="mission">NOTRE MISSION</h3>
+				<p style="margin-top: 26px;">
+					À <b>Fg services</b>, notre mission est de transformer vos idées en réalité numérique.
+					Que vous soyez une start-up ambitieuse, une entreprise établie ou un entrepreneur créatif,
+					nous mettons notre expertise technique au service de vos objectifs. Notre équipe dévouée 
+					de développeurs web, de designers et de professionnels du marketing collabore étroitement
+					pour offrir des solutions innovantes et sur mesure.
+				</p>
+				<h3 class="choisir">POURQUOI NOUS-CHOISIR ?</h3>
+				<p style="margin-top: 26px;">
+					<ul>
+						<li>Comprendre les objectifs du client</li>
+						<li>Faire le business avec honnêteté</li>
+						<li>nous créons une stratégie de contenu gagnante</li>
+						<li>nous protégeons votre réputation en ligne</li>
+						<li>nous livrons à temps</li>
+					</ul>
+				</p>
+			</div>
+			<div class="col-md-6 text-center">
+				<img src="{% static 'extra-images/dessin_digital.jpg' %}" alt="dessin digital" class="img-fluid" style="margin-bottom: 39px; margin-top: 65px; height: 442px;">
+			</div>
+		</div>
+		</div>
+	</div>
+</section>  
+<!--about me End -->
+
+<!-- reseaux sociaux start -->
+<section id="reseaux">
+	<div class="container text-center">
+		<p>TROUVEZ-NOUS SUR NOS DIFFERENTS RESEAUX</p>
+		<div class="photo-reseau">
+			<a href="#"><img src="{% static 'extra-images/facebook.jpg' %}" alt="" srcset=""></a>
+			<a href="#"><img src="{% static 'extra-images/instagram.png' %}" alt="" srcset=""></a>
+			<a href="#"><img src="{% static 'extra-images/tiktok.png' %}" alt="" srcset=""></a>
+		</div>
+	</div>
+
+</section>
+ 
+<!-- reseaux sociaux End -->
+   {% endblock %}
+
